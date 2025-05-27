@@ -1,35 +1,52 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=23822
 
 ### Loops ###
+"""es un mecanismo que nos sirve para iterar
+que es iterar? es intentar repetir algo
+es basicamente pasar por el mismo codigo varias veces con un solo codigo"""
+
 
 # While
+"""while usa condiciones, MIENTRAS SEA VERDADERO HAS ALGO"""
 
 my_condition = 0
 
 while my_condition < 10:
     print(my_condition)
-    my_condition += 2
-else:  # Es opcional
+    """ la condicion = 0 y si mi conficion = 0 entonces imprime condicion
+    y la vuelve a tomar y como de nuevo es cero la imprime de nuevo y asi 
+    hasta el infinito, ES COMO UNA SERPIENTE QUE SE COME A SI MISMA"""
+    my_condition += 2 
+    """para que no este al infinito le agregamos algo a 
+    la condicion entonces tiene que parar hasta que la condicion de while se 
+    cumpla cada impresion seria en una linea separada"""
+else:  # Es opcional else pero puede servir para informar que el bucle ha finalizado
     print("Mi condición es mayor o igual que 10")
-
+"""este else pertenece al while pero podria funcionar igual con if porque 
+despues de while leeria el if, no acepta elif"""
 print("La ejecución continúa")
 
 while my_condition < 20:
     my_condition += 1
     if my_condition == 15:
-        print("Se detiene la ejecución")
-        break
+        print("Mi condicion es 15, Se detiene la ejecución")
+        break #brake es para que pare el bucle 
     print(my_condition)
 
 print("La ejecución continúa")
 
 # For
-
+"""nos sirve para iterar un listado de elementos"""
+print("inicia fode list")
 my_list = [35, 24, 62, 52, 30, 30, 17]
 
 for element in my_list:
     print(element)
+"""mientras que while hace que el codigo se repita varias veces en funcion de una condicion, 
+for hace que se repita tantas veces como elementos que tengamos iterables y cada vez que le de 
+una vuelta a for va a estar accediendo a uno de esos elementos del listado """
 
+print("inicia for tuple")
 my_tuple = (35, 1.77, "Brais", "Moure", "Brais")
 
 for element in my_tuple:
@@ -37,11 +54,13 @@ for element in my_tuple:
 
 my_set = {"Brais", "Moure", 35}
 
+print("inicia for set")
 for element in my_set:
     print(element)
 
 my_dict = {"Nombre": "Brais", "Apellido": "Moure", "Edad": 35, 1: "Python"}
 
+print("inicia for dict")
 for element in my_dict:
     print(element)
     if element == "Edad":

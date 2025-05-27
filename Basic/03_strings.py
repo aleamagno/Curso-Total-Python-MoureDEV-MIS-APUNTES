@@ -78,3 +78,4 @@ print(language.lower()) #
 print(language.lower().isupper()) #lower minusculas y isupper para comprobar si es mayus
 print(language.startswith("Py")) #si empieza con py en este caso
 print("Py" == "py")  # No es lo mismo porque es sensible a mayus y minus
+#trabajo ahora desde pc work
