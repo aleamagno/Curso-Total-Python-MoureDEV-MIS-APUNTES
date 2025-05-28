@@ -25,7 +25,8 @@ Con esto nos ahorramos codigo para cosas mas complejas y nos previene errores al
 todo el codigo si no tuvieramos def"""
  
 
-# Función con parámetros de entrada/argumentos 
+# Función con parámetros de entrada/argumentos dados al nombre de la funcion
+print("funcion con parametros de entrada en la funcion")
 "no se limita solo a desencadenar codigo,"
 " tambien puede devolver y recibir codigo"
 
@@ -43,8 +44,8 @@ sum_two_values(54754, 71231)
 sum_two_values("5", "7") #57 porque concatana las dos cadenas de texto, xloq tipa es dinamico
 sum_two_values(1.4, 5.2)
 
-# Función con parámetros de entrada/argumentos y retorno
-
+# Función con parámetros de entrada/argumentos dados al nombre de la funcion  y retorno de argumentos
+print("funcion con parametros de entrada en la funcion y retorno")
 
 def sum_two_values_with_return(first_value, second_value):
     my_sum = first_value + second_value

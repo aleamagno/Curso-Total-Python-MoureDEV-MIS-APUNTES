@@ -34,6 +34,7 @@ print(3 == 4)
 print(3 != 4)
 
 # Operaciones con cadenas de texto
+print("Operaciones con cadenas de texto")
 print("Hola" > "Python")
 print("Hola" < "Python")
 print("aaaa" >= "abaa")  # Ordenación alfabética por ASCII

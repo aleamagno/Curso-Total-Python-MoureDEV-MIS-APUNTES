@@ -23,7 +23,7 @@ my_dict = {
     "Lenguajes": {"Python", "Swift", "Kotlin"},
     1: 1.77
 }
-
+print(my_dict["Edad"],"provando si puedo buscar por valor")
 print(my_other_dict)
 print(my_dict)
 
@@ -49,6 +49,9 @@ print(my_dict)
 my_dict["Nombre"] = "Pedro"
 print(my_dict["Nombre"])
 
+print("intento de actualizar key de un valor")
+#my_dict["nuevo apellido"]=" Aurelio"
+print(my_dict)
 # Eliminación de un elemento del dict
 
 del my_dict["Calle"]

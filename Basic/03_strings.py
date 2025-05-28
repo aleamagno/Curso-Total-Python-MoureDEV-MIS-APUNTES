@@ -15,7 +15,7 @@ print(my_new_line_string)
 my_tab_string = "\tEste es un String con tabulación"
 print(my_tab_string)
 
-my_scape_string = "\\tEste es un String \\n escapado"
+my_scape_string = "\\tEste es un String \\n escapado" #no tengo idea a que se refiere
 print(my_scape_string)
 
 # Formateo
@@ -57,9 +57,12 @@ language_slice = language[0:6:2]
 print(language_slice)
 """sacarlos por separado nos daria pto no tengo idea porque si
 python
-123456
+012345
 entonces nos omite lo que le estamos diciendo es bastante rebuscado pero por si acaso
-porque estamos agregando 3 valores a tomar entonces toma unos como rango y despues el otro rango etc"""
+porque estamos agregando 3 valores a tomar entonces toma unos como rango y despues el otro rango etc
+
+actualizacion: como mostro pto lo que va desde p hasta n lo que quiere decir es que fue de dos en dos 
+                por eso solo mostro p que es 0, t que es 2 y o que es 4 y como no hay 6 por eso hay termina la operacion"""
 
 # Reverse
 
