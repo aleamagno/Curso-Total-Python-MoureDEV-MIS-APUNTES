@@ -46,18 +46,22 @@ sum_two_values(1.4, 5.2)
 
 # Función con parámetros de entrada/argumentos dados al nombre de la funcion  y retorno de argumentos
 print("funcion con parametros de entrada en la funcion y retorno")
-
+"""basicamente retornar se ignifica que te va a entregar algo 
+y a ese resultado lo tengo que guardar en una variable para poder 
+mostrarlo de nuevo"""
 def sum_two_values_with_return(first_value, second_value):
     my_sum = first_value + second_value
     return my_sum
+"""en este caso la variable en la que quiero que se guarde el resultado de 
+la def es my_sum y le pido que me entrege osea que me retorne my_sum
+pero seria lo mismo si solo pusiera return first_value + secund_value"""
 
-
-my_result = sum_two_values(1.4, 5.2) #retorna none porque sum_two_values es una def sin retorno
-print(my_result)
+#my_result = sum_two_values(1.4, 5.2) #retorna none porque sum_two_values es una def sin retorno
+#print(my_result)
 
 my_result = sum_two_values_with_return(10, 5) #resulado de la def la asignas a una variable
 print(my_result) #y esta si retorna algo porque sum_two_value_with_return es una def de retorno
-
+"""y al darle parametros como 10, 5 eso tambien lo agrego a otra variable"""
 
 # Función con parámetros de entrada/argumentos por clave
 
