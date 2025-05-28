@@ -37,16 +37,16 @@ print("La ejecución continúa")
 
 # For
 """nos sirve para iterar un listado de elementos"""
-print("inicia fode list")
+print("inicia for list que guardan elementos una a uno")
 my_list = [35, 24, 62, 52, 30, 30, 17]
 
 for element in my_list:
     print(element)
-"""mientras que while hace que el codigo se repita varias veces en funcion de una condicion, 
-for hace que se repita tantas veces como elementos que tengamos iterables y cada vez que le de 
-una vuelta a for va a estar accediendo a uno de esos elementos del listado """
+"""mientras que while hace que el codigo se repita infinitas veces en funcion de una condicion, 
+for hace que se repita tantas veces como elementos que tengamos iterables por lo que es finita 
+y cada vez que le de una vuelta a for va a estar accediendo a uno de esos elementos del listado"""
 
-print("inicia for tuple")
+print("inicia for tuple guardan elementos pero no se pueden modificar")
 my_tuple = (35, 1.77, "Brais", "Moure", "Brais")
 
 for element in my_tuple:
@@ -54,13 +54,16 @@ for element in my_tuple:
 
 my_set = {"Brais", "Moure", 35}
 
-print("inicia for set")
+print("inicia for set, guardan elementos que no esten repetidos")
 for element in my_set:
     print(element)
 
 my_dict = {"Nombre": "Brais", "Apellido": "Moure", "Edad": 35, 1: "Python"}
 
-print("inicia for dict")
+print("inicia for dict, guardan elementos clave -> valor pero con for solo muestra el keys "
+"y si queremos ver los vlaores entonces convertiriamos el dict a list y quedaria como"
+"for element in list(my_dict.values()): ó solo my_dict.values(): porque en si values es "
+"capaz de traerlos en formato lista ")
 for element in my_dict:
     print(element)
     if element == "Edad":
@@ -73,7 +76,9 @@ print("La ejecución continúa")
 for element in my_dict:
     print(element)
     if element == "Edad":
-        continue
-    print("Se ejecuta")
+        continue #es lo contrario a brake y muestra 1 en este caso, no tiene tanto sentido 
+    print("Se ejecuta continue")
 else:
     print("El bluce for para diccionario ha finalizado")
+"""continue es es vuelva a for sin ver lo que esta debajo
+break es termina todo el bucle"""
