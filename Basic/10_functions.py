@@ -55,7 +55,10 @@ def sum_two_values_with_return(first_value, second_value):
 """en este caso la variable en la que quiero que se guarde el resultado de 
 la def es my_sum y le pido que me entrege osea que me retorne my_sum
 
-pero seria lo mismo si solo pusiera return first_value + secund_value"""
+pero seria lo mismo si solo pusiera return first_value + secund_value
+
+BASICAMENTE RETORNAR SE REFIERE A QUE ESA DEF SE CONVIERTA EN SI EN ESA COSA QUE REALIZA
+Return entonces es que devuelva ese argumento"""
 
 #my_result = sum_two_values(1.4, 5.2) #retorna none porque sum_two_values es una def sin retorno
 #print(my_result)
