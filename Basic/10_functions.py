@@ -77,6 +77,9 @@ def print_name(name, surname):
 
 
 print_name(surname="Moure", name="Brais")
+"""cuando se asignamos una clave de una variable y luego la formateamos, al querer
+usala en este caso para imprimir, si no colocamos en orden las variables nos las dara
+asi sin mas, por lo que es recomendable definirlas si es que no estaban definidas obvio"""
 
 # Función con parámetros de entrada/argumentos por defecto
 """dentro de def podemos dalrle un valor por defecto para que si no se agrega se muestre ese
