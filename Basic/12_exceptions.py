@@ -40,7 +40,7 @@ except TypeError:
     print("Se ha producido un TypeError")
 
 # Captura de la información de la excepción
-
+print("cappturacion de la informacion de la exception")
 try:
     print(numberOne + numberTwo)
     print("No se ha producido un error")
