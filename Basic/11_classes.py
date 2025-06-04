@@ -41,6 +41,12 @@ print(my_other_person.full_name)
 my_other_person.walk()
 my_other_person.full_name = "Héctor de León (El loco de los perros)"
 print(my_other_person.full_name)
+"""en el primer ejemplo pusimos Brais como nombre y Moure como surname, en este segundo"
+ "ejemplo ponemos primero como name Brais, Surname Moure y alias Mouredev y lo imprime
+ perfecto, 
+ pero ademas modemos modificar el fullname de la clase person en estr caso a Hector de Leon
+ (el loco de los perros) y fijate que () porque la propiedad fullname tiene que alias puede
+ ser () y asi lo lee y la imprimimos luego y se imprime con los cambios de ahora"""
 
 my_other_person.full_name = 666
 print(my_other_person.full_name)
